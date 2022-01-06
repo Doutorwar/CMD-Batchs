@@ -19,7 +19,7 @@ set/p "user=>"
 cls
 
 @ECHO ON
-xcopy "%diretorio%:\Users\%user%" "%diretoriof%:\backup %user% disco %diretorio%" /e /h /c
+xcopy "%diretorio%:\Users\%user%" "%diretoriof%:\backup %user% disco %diretorio%" /e /c
 cls
 
 @ECHO OFF
