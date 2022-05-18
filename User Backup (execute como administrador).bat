@@ -1,5 +1,9 @@
 @ECHO OFF
-title User Backup por Doutorwar
+title User Backup by Doctorwar
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: meu github https://github.com/Doutorwar                                  ::
+:: Programa criado por Doctorwar, feito para ajudar tecnicos de informatica ::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 cls
 
 echo Em qual disco esta o user que sera copiado? (EX: Disco C) Digite apenas a letra
