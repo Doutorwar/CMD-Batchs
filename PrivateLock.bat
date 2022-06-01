@@ -1,10 +1,11 @@
 @ECHO OFF
 title Private lock by Doctorwar
+cls
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: meu github https://github.com/Doutorwar                                  ::
 :: Programa criado por Doctorwar, feito para ajudar tecnicos de informatica ::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-cls
 
 if EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" goto UNLOCK
 if NOT EXIST Private goto FOLDER
