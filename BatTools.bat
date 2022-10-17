@@ -35,6 +35,8 @@ if '%errorlevel%' NEQ '0' (
 
 ::***************************************************************************
 
+
+
 :MENU
 title BatTools By Doctorwar
 echo Menu
@@ -61,6 +63,8 @@ IF errorlevel=3 goto OP3
 IF errorlevel=2 goto OP2
 IF errorlevel=1 goto OP1
 
+
+
 :OP1
 cls
 title ipconfig
@@ -69,16 +73,21 @@ pause
 goto MENU
 
 
+
 :OP2
 cls
 ping google.com
 pause
 goto MENU
 
+
+
 :OP3
 cls
 ping google.com /t
 goto MENU
+
+
 
 :OP4
 cls
@@ -100,6 +109,8 @@ IF errorlevel=2 goto REINICIAR
 IF errorlevel=1 goto MENU
 goto MENU
 
+
+
 :OP5
 cls
 title Trocando Ip
@@ -109,6 +120,8 @@ ipconfig/renew
 ipconfig/registerdns
 pause
 goto MENU
+
+
 
 :OP6
 cls
@@ -134,12 +147,43 @@ echo Backup concluido
 pause
 goto MENU
 
-:OP7
 
+
+:OP7
+if EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" goto UNLOCK
+if NOT EXIST Private goto FOLDER
+
+:LOCK
+ren Private "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+attrib +h +s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+echo Pasta encontrada, iniciando bloqueio
+pause
 goto MENU
 
-:OP8
+:UNLOCK
+echo Pass
+set/p "pass=>"
+if NOT %pass%== 123 goto FAIL
+attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
+ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Private
+echo Pasta desbloqueada
+pause
+goto MENU
 
+:FAIL
+echo Senha Invalida
+goto UNLOCK
+
+:FOLDER
+echo Pasta nao encontrada, criando pasta no diretorio atual
+echo senha padrao: 123
+md Private
+pause
+goto MENU
+
+
+
+:OP8
 goto MENU
 
 
@@ -149,6 +193,7 @@ cls
 title REINICIANDO
 echo reiniciando em 5 segundos
 pause
+
 
 :END
 cls
