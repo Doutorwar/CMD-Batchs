@@ -3,7 +3,7 @@ ECHO OFF
 cls
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: meu github https://github.com/Doutorwar                                  ::
+:: meu github https://github.com/felpsfpp                                   ::
 :: Programa criado por Doctorwar, feito para ajudar tecnicos de informatica ::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
