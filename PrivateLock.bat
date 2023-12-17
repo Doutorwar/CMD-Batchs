@@ -18,7 +18,7 @@ goto END
 :UNLOCK
 echo Pass
 set/p "pass=>"
-if NOT %pass%== 94nn goto FAIL
+if NOT %pass%== 123123 goto FAIL
 attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
 ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Private
 goto END
