@@ -2,10 +2,12 @@
 title Reparador do windows by Doctorwar
 cls
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: meu github https://github.com/felpsfpp                                   ::
-:: Programa criado por Doctorwar, feito para ajudar tecnicos de informatica ::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+echo :: meu github https://github.com/felpsfpp                                   ::
+echo :: Programa criado por Felipe Pinheiro.                                     ::
+echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+pause
+cls
 
 ::***************************************************************************
 REM  --> Verificando permissao
