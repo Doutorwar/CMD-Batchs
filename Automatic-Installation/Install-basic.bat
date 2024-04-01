@@ -1,3 +1,14 @@
+echo off
+cls
+
+echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+echo :: meu github https://github.com/felpsfpp                                   ::
+echo :: Programa criado por Felipe Pinheiro.                                     ::
+echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+pause
+echo on
+cls
+
 winget install -e --id Microsoft.VCRedist.2005.x86
 winget install -e --id Microsoft.VCRedist.2005.x64
 
