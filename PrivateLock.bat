@@ -2,10 +2,12 @@
 title Private lock by Doctorwar
 cls
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: meu github https://github.com/felpsfpp                                   ::
-:: Programa criado por Doctorwar, feito para ajudar tecnicos de informatica ::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+echo :: meu github https://github.com/felpsfpp                                   ::
+echo :: Programa criado por Felipe Pinheiro.                                     ::
+echo ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+pause
+cls
 
 if EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" goto UNLOCK
 if NOT EXIST Private goto FOLDER
