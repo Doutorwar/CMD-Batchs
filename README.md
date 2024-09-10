@@ -4,8 +4,6 @@
 
 <h1> Some of my CMD Batch creations </h1>
 
----
-
 - BatTools: All the other batch tools in one
 
 - PrivateLock: Creates and hide a folder
